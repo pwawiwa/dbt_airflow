@@ -47,7 +47,7 @@ production-grade data pipeline using Apache Airflow and dbt (Data Build Tool), t
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone <repo-url>
+   git clone https://github.com/pwawiwa/dbt_airflow
    cd dbt-dag
    ```
 2. Build and start the Docker environment:
