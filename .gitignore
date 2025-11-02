@@ -1,0 +1,53 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Editor configs
+.vscode/
+.idea/
+
+# dbt artifacts
+**/target/
+**/run/
+**/compiled/
+
+# Airflow local files and venvs
+airflow.db
+logs/
+**/dbt_venv/
+
+# Credentials and profiles
+profiles.yml
+
+# Test and build
+.pytest_cache/
+pip-wheel-metadata/
+*.egg-info/
+
+# Misc
+*.log
+*.sqlite3
+.git
+.env
+.DS_Store
+airflow_settings.yaml
+__pycache__/
+astro
+.venv
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
